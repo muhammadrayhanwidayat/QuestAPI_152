@@ -1,12 +1,12 @@
-package com.example.questapi_152.viewmodel
+package com.example.localrestapi.viewmodel
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.questapi_152.modeldata.DataSiswa
-import com.example.questapi_152.repositori.RepositoryDataSiswa
+import com.example.localrestapi.modeldata.DataSiswa
+import com.example.localrestapi.repositori.RepositoryDataSiswa
 import kotlinx.coroutines.launch
 import retrofit2.HttpException
 import java.io.IOException
@@ -17,21 +17,25 @@ sealed interface StatusUiSiswa {
     object Loading : StatusUiSiswa
 }
 
+class HomeViewModel(
+    private val repositoryDataSiswa: RepositoryDataSiswa
+) : ViewModel() {
 
-class HomeViewModel (private val repositoryDataSiswa: RepositoryDataSiswa) : ViewModel(){
     var listSiswa: StatusUiSiswa by mutableStateOf(StatusUiSiswa.Loading)
         private set
+
     init {
         loadSiswa()
     }
+
     fun loadSiswa() {
         viewModelScope.launch {
             listSiswa = StatusUiSiswa.Loading
             listSiswa = try {
                 StatusUiSiswa.Success(repositoryDataSiswa.getDataSiswa())
-            }catch (e: IOException) {
+            } catch (e: IOException) {
                 StatusUiSiswa.Error
-            } catch (e: HttpException){
+            } catch (e: HttpException) {
                 StatusUiSiswa.Error
             }
         }

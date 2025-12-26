@@ -1,4 +1,4 @@
-package com.example.localrestapi.modeldata
+package com.example.questapi_152.modeldata
 
 import kotlinx.serialization.Serializable
 

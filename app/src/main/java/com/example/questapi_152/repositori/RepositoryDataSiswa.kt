@@ -1,7 +1,7 @@
-package com.example.localrestapi.repositori
+package com.example.questapi_152.repositori
 
-import com.example.localrestapi.apiservice.ServiceApiSiswa
-import com.example.localrestapi.modeldata.DataSiswa
+import com.example.questapi_152.apiservice.ServiceApiSiswa
+import com.example.questapi_152.modeldata.DataSiswa
 
 interface RepositoryDataSiswa {
     suspend fun getDataSiswa(): List<DataSiswa>

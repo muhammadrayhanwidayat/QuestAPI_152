@@ -1,4 +1,4 @@
-package com.example.localrestapi.apiservice
+package com.example.questapi_152.apiservice
 
 import com.example.localrestapi.modeldata.DataSiswa
 import retrofit2.http.Body

@@ -1,7 +1,7 @@
-package com.example.localrestapi.repositori
+package com.example.questapi_152.repositori
 
 import android.app.Application
-import com.example.localrestapi.apiservice.ServiceApiSiswa
+import com.example.questapi_152.apiservice.ServiceApiSiswa
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
