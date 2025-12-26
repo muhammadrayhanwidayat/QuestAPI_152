@@ -1,4 +1,4 @@
-package com.example.localrestapi
+package com.example.questapi_152
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,8 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.localrestapi.ui.theme.LocalRestAPITheme
-import com.example.localrestapi.uicontroller.DataSiswaApp
+import com.example.questapi_152.ui.theme.LocalRestAPITheme
+import com.example.questapi_152.uicontroller.DataSiswaApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

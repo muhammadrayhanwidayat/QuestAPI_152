@@ -1,5 +1,5 @@
 @file:OptIn(InternalSerializationApi::class)
-package com.example.localrestapi.viewmodel
+package com.example.questapi_152.viewmodel
 
 import android.annotation.SuppressLint
 import androidx.compose.runtime.getValue
@@ -8,9 +8,9 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.localrestapi.modeldata.DataSiswa
-import com.example.localrestapi.repositori.RepositoryDataSiswa
-import com.example.localrestapi.uicontroller.route.DestinasiDetail
+import com.example.questapi_152.modeldata.DataSiswa
+import com.example.questapi_152.repositori.RepositoryDataSiswa
+import com.example.questapi_152.uicontroller.route.DestinasiDetail
 import kotlinx.coroutines.launch
 import kotlinx.serialization.InternalSerializationApi
 import java.io.IOException

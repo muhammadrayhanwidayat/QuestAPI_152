@@ -1,6 +1,6 @@
-package com.example.localrestapi.uicontroller.route
+package com.example.questapi_152.uicontroller.route
 
-import com.example.localrestapi.R
+import com.example.questapi_152.R
 
 object DestinasiDetail : DestinasiNavigasi {
     override val route = "detail_siswa"

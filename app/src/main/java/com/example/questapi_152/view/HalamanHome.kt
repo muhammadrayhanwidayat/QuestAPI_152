@@ -1,12 +1,12 @@
-package com.example.localrestapi.view
+package com.example.questapi_152.view
 
 
-import com.example.localrestapi.R
-import com.example.localrestapi.modeldata.DataSiswa
-import com.example.localrestapi.uicontroller.route.DestinasiHome
-import com.example.localrestapi.viewmodel.HomeViewModel
-import com.example.localrestapi.viewmodel.StatusUiSiswa
-import com.example.localrestapi.viewmodel.provider.PenyediaViewModel
+import com.example.questapi_152.R
+import com.example.questapi_152.modeldata.DataSiswa
+import com.example.questapi_152.uicontroller.route.DestinasiHome
+import com.example.questapi_152.viewmodel.HomeViewModel
+import com.example.questapi_152.viewmodel.StatusUiSiswa
+import com.example.questapi_152.viewmodel.provider.PenyediaViewModel
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

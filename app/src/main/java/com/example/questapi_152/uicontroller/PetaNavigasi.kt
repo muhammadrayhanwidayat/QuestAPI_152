@@ -1,4 +1,4 @@
-package com.example.localrestapi.uicontroller
+package com.example.questapi_152.uicontroller
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -8,14 +8,14 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.localrestapi.uicontroller.route.DestinasiDetail
-import com.example.localrestapi.uicontroller.route.DestinasiEdit
-import com.example.localrestapi.uicontroller.route.DestinasiEntry
-import com.example.localrestapi.uicontroller.route.DestinasiHome
-import com.example.localrestapi.view.DetailSiswaScreen
-import com.example.localrestapi.view.EditSiswaScreen
-import com.example.localrestapi.view.EntrySiswaScreen
-import com.example.localrestapi.view.HomeScreen
+import com.example.questapi_152.uicontroller.route.DestinasiDetail
+import com.example.questapi_152.uicontroller.route.DestinasiEdit
+import com.example.questapi_152.uicontroller.route.DestinasiEntry
+import com.example.questapi_152.uicontroller.route.DestinasiHome
+import com.example.questapi_152.view.DetailSiswaScreen
+import com.example.questapi_152.view.EditSiswaScreen
+import com.example.questapi_152.view.EntrySiswaScreen
+import com.example.questapi_152.view.HomeScreen
 
 @Composable
 fun DataSiswaApp(navController: NavHostController = rememberNavController(), modifier: Modifier){

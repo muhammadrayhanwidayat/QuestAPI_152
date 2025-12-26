@@ -1,4 +1,4 @@
-package com.example.localrestapi.view
+package com.example.questapi_152.view
 
 
 import androidx.annotation.StringRes
@@ -34,12 +34,12 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.localrestapi.R
-import com.example.localrestapi.modeldata.DataSiswa
-import com.example.localrestapi.uicontroller.route.DestinasiDetail
-import com.example.localrestapi.viewmodel.DetailViewModel
-import com.example.localrestapi.viewmodel.StatusUIDetail
-import com.example.localrestapi.viewmodel.provider.PenyediaViewModel
+import com.example.questapi_152.R
+import com.example.questapi_152.modeldata.DataSiswa
+import com.example.questapi_152.uicontroller.route.DestinasiDetail
+import com.example.questapi_152.viewmodel.DetailViewModel
+import com.example.questapi_152.viewmodel.StatusUIDetail
+import com.example.questapi_152.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

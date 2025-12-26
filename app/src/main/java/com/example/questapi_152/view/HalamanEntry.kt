@@ -1,4 +1,4 @@
-package com.example.localrestapi.view
+package com.example.questapi_152.view
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -8,7 +8,6 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
-import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
@@ -24,12 +23,12 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.localrestapi.R
-import com.example.localrestapi.modeldata.DetailSiswa
-import com.example.localrestapi.modeldata.UIStateSiswa
-import com.example.localrestapi.uicontroller.route.DestinasiEntry
-import com.example.localrestapi.viewmodel.EntryViewModel
-import com.example.localrestapi.viewmodel.provider.PenyediaViewModel
+import com.example.questapi_152.R
+import com.example.questapi_152.modeldata.DetailSiswa
+import com.example.questapi_152.modeldata.UIStateSiswa
+import com.example.questapi_152.uicontroller.route.DestinasiEntry
+import com.example.questapi_152.viewmodel.EntryViewModel
+import com.example.questapi_152.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

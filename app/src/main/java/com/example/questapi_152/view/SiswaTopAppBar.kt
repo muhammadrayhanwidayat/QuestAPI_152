@@ -1,4 +1,4 @@
-package com.example.localrestapi.view
+package com.example.questapi_152.view
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -11,7 +11,7 @@ import androidx.compose.material3.TopAppBarScrollBehavior
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.example.localrestapi.R
+import com.example.questapi_152.R
 
 
 @OptIn(ExperimentalMaterial3Api::class)
