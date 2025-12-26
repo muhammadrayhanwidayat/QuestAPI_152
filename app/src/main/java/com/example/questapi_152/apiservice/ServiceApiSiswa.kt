@@ -1,6 +1,6 @@
 package com.example.questapi_152.apiservice
 
-import com.example.localrestapi.modeldata.DataSiswa
+import com.example.questapi_152.modeldata.DataSiswa
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET
