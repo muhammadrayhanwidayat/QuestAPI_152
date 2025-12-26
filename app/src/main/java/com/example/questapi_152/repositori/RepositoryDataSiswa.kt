@@ -32,3 +32,4 @@ class JaringanRepositoryDataSiswa(
 
     override suspend fun hapusSatuSiswa(id: Int): retrofit2.Response<Void> =
         serviceApiSiswa.hapusSatuSiswa(id)
+}
