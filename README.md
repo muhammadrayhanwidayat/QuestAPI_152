@@ -8,3 +8,6 @@ masukan nilai
 
 xampp
 <img width="833" height="505" alt="Screenshot 2025-12-26 211244" src="https://github.com/user-attachments/assets/d24f69d3-1f51-43a8-b578-fdfa0abfbc68" />
+
+kalau hapus
+<img width="345" height="294" alt="image" src="https://github.com/user-attachments/assets/e23bf738-2c87-4349-ba38-f8e01b3584f6" />
